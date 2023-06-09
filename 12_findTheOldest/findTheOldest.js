@@ -19,12 +19,5 @@ const findTheOldest = function(people) {
     return max;
 };
 
-function age (birth, death) {
-    if (!death) {
-        return Infinity;
-    }
-    return death - birth;
-}
-
 // Do not edit below this line
 module.exports = findTheOldest;
